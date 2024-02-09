@@ -9,7 +9,7 @@
 </div> -->
 </h2>
 
-This is the official repository of [**RiEMann: Near Real-Time SE(3)-Equivariant Robot Manipulation without Point Cloud Segmentation**](https://github.com/HeegerGao/RiEMann).
+This is the official repository of **RiEMann: Near Real-Time SE(3)-Equivariant Robot Manipulation without Point Cloud Segmentation**.
 
 For more information, please visit our [**project page**](https://github.com/HeegerGao/RiEMann).
 
