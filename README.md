@@ -11,7 +11,7 @@
 
 This is the official repository of **RiEMann: Near Real-Time SE(3)-Equivariant Robot Manipulation without Point Cloud Segmentation**.
 
-For more information, please visit our [**project page**](https://github.com/HeegerGao/RiEMann).
+<!-- For more information, please visit our [**project page**](). -->
 
 ## Overview
 
