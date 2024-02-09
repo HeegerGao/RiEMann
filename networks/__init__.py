@@ -1,0 +1,1 @@
+from .equinet import SE3ManiNet, SE3SegNet
