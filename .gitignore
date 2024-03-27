@@ -135,4 +135,4 @@ wandb/
 
 pcd/
 experiments/
-data/
+test/

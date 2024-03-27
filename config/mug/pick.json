@@ -1,7 +1,7 @@
 {
     "seg": {
         "model": "SE3SegNet",
-        "device": "cuda:2",
+        "device": "cuda:0",
         "data_aug": true,
         "aug_methods": [
             "downsample_table",
@@ -22,7 +22,7 @@
     },
     "mani": {
         "model": "SE3ManiNet",
-        "device": "cuda:2",
+        "device": "cuda:1",
         "demo_dir": "data/demos",
         "exp_name": "mug",
         "data_aug": true, 

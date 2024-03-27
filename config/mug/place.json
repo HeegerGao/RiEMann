@@ -1,7 +1,7 @@
 {
     "seg": {
         "model": "SE3SegNet",
-        "device": "cuda:1",
+        "device": "cuda:0",
         "data_aug": true,
         "aug_methods": [
             "downsample_table",

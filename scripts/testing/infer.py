@@ -14,7 +14,7 @@ def main(args):
     cfg_seg = all_cfg.seg
     cfg_mani = all_cfg.mani
 
-    wd = os.path.join("experiments", args.exp_name, args.pick_or_place, "deploy", args.setting)
+    wd = os.path.join("experiments", args.exp_name, args.pick_or_place, args.setting)
     pcd_path = os.path.join(os.getcwd(), wd, "pcd.npz")
     pcd = np.load(pcd_path)
 
@@ -73,7 +73,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('exp_name', type=str, default="mug")
     parser.add_argument('pick_or_place', type=str, choices=["pick", "place"], default="pick")
-    parser.add_argument('setting', type=str, default='val-a-4')
+    parser.add_argument('setting', type=str, default='new-pose')
     args = parser.parse_args()
 
     main(args)
