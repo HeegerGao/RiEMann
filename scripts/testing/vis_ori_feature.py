@@ -46,6 +46,6 @@ def draw_ori_feature(ball_pcd, ball_oris):
 
 
 if "__name__" == "__main__":
-    ball_pcd = o3d.io.read_point_cloud("eval.pcd")
-    ori_feature = torch.load('ori_feature_{pcd_name}.pt', map_location=torch.device('cpu')).detach()
+    ball_pcd = "your_pcd_path"
+    ori_feature = "your_ori_feature_path"
     draw_ori_feature(ball_pcd, ori_feature)

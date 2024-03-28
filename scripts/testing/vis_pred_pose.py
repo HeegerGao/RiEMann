@@ -40,6 +40,6 @@ def main(pcd_path, result_path):
     vis.destroy_window()
     
 if __name__ == "__main__":
-    pcd_path = os.path.join("data", "mug", "pick", "new-pose.npz")
-    result_path = os.path.join("experiments", "mug", "pick", "new-pose", "new-pose_pred_pose.npz")
+    pcd_path = "your_pcd_path"
+    result_path = "your_result_path"
     main(pcd_path, result_path)

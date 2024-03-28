@@ -13,7 +13,7 @@ import argparse
 from torch.optim.lr_scheduler import StepLR
 
 def main(cfg):
-    all_cfg = OmegaConf.load(f"config/{args.exp_name}/{args.pick_or_place}.json")
+    all_cfg = OmegaConf.load(f"config/{args.exp_name}/{args.pick_or_place}/config.json")
     cfg = all_cfg.mani
     cfg_seg = all_cfg.seg
 

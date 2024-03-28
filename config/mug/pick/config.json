@@ -4,14 +4,11 @@
         "device": "cuda:1",
         "data_aug": true,
         "aug_methods": [
-            "downsample_table",
-            "color_jitter",
-            "hsv_transform",
-            "random_dropping_color"
+            "downsample_table"
         ],
-        "random_drop": true,
+        "random_drop": false,
         "draw_pcd": false,
-        "mask_part": true,
+        "mask_part": false,
         "train_batch_size": 1,
         "test_batch_size": 1,
         "train_demo_ratio": 0.8,

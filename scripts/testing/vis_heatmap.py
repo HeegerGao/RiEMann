@@ -21,4 +21,4 @@ def vis_global_heatmap(pcd_path):
     o3d.visualization.draw_geometries([scene_heatmap_pcd])
 
 if __name__ == "__main__":
-    pcd_path = f"pcd/seg/pos_heatmap_{pcd_name}_{i}.pcd"
+    pcd_path = "your_pcd_path"

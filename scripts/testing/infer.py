@@ -10,7 +10,7 @@ import numpy as np
 from utils.utils import modified_gram_schmidt
 
 def main(args):
-    all_cfg = OmegaConf.load(f"config/{args.exp_name}/{args.pick_or_place}.json")
+    all_cfg = OmegaConf.load(f"config/{args.exp_name}/{args.pick_or_place}/config.json")
     cfg_seg = all_cfg.seg
     cfg_mani = all_cfg.mani
 
@@ -21,7 +21,7 @@ def main(args):
     input_xyz = torch.tensor(pcd["xyz"]).float().unsqueeze(0).to(cfg_seg.device)
     input_rgb = torch.tensor(pcd["rgb"]).float().unsqueeze(0).to(cfg_seg.device)
     
-    model_dir = os.path.join("experiments", args.exp_name, args.pick_or_place, "good_models")
+    model_dir = os.path.join("experiments", args.exp_name, args.pick_or_place)
     policy_seg = globals()[cfg_seg.model](voxel_size=cfg_seg.voxel_size, radius_threshold=cfg_seg.radius_threshold).float().to(cfg_seg.device)
     policy_seg.load_state_dict(torch.load(os.path.join(model_dir, "segnet.pth")))
     policy_seg.eval()
