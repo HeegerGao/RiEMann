@@ -45,7 +45,7 @@ pip install dglgo -f https://data.dgl.ai/wheels-test/repo.html
 
 ## Data Preparation
 
-Please put your data in the `data/{your_exp_name}`. We provide the demonstrations for the mug experiment at `data/mug/pick`, both for training and testing.
+Please put your data in the `data/{your_exp_name}`. We provide the demonstrations for the mug-pick experiment at `data/mug/pick`, both for training and testing.
 
 The demonstration file is a .npz file and is in the following data structure:
 ```
@@ -67,9 +67,16 @@ As stated in our paper, there is an SE(3)-invariant network $\phi$ that extracts
 2. `python scripts/training/train_mani.py`
 
 After these training, you will get a `seg_net.pth` and a `mani_net.pth` under `experiments/{your_exp_name}`.
+
+Different hyperparameters in the config file leads to different performance, training speed, and memory cost. Have a try!
+
 ## Evaluation
 
-Run `python scripts/testing/infer.py`. You can select the testing demonstrations in the input arguments. After this you will get a `pred_pose.npz` that records the predicted target pose, and a open3d window will visualize the result.
+Run `python scripts/testing/infer.py`. You can select the testing demonstrations in the input arguments. After this you will get a `pred_pose.npz` that records the predicted target pose.
+
+We provide different scripts for result and feature visualization in `scripts/testing`.
+
+We provide pretrained models for the `mug/pick` experiment in `experiments/mug/pick`.
 
 ## Citing
 ```

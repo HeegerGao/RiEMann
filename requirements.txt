@@ -2,6 +2,7 @@ apex==0.9.10dev
 e3nn==0.5.1
 omegaconf==2.3.0
 open3d==0.17.0
+opencv-python==4.9.0.80
 potpourri3d==1.0.0
 pynvml==11.5.0
 scipy
