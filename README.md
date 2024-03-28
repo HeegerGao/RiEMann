@@ -19,6 +19,13 @@ RiEMann is an SE(3)-equivariant robot manipulation algorithm that can generalize
 
 ![image](imgs/web_teaser.gif)
 
+## TODO
+-[ ] Add pretrained models
+
+-[ ] Add hyperparameter tuning guidance
+
+-[ ] Upload more data
+
 ## Installation
 
 ### 1. Create virtual environment
@@ -75,8 +82,6 @@ Different hyperparameters in the config file leads to different performance, tra
 Run `python scripts/testing/infer.py`. You can select the testing demonstrations in the input arguments. After this you will get a `pred_pose.npz` that records the predicted target pose.
 
 We provide different scripts for result and feature visualization in `scripts/testing`.
-
-We provide pretrained models for the `mug/pick` experiment in `experiments/mug/pick`.
 
 ## Citing
 ```
