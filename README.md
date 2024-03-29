@@ -2,7 +2,7 @@
   <b>RiEMann: Near Real-Time SE(3)-Equivariant Robot Manipulation without Point Cloud Segmentation</b>
 
 <div align="center">
-    <a href="" target="_blank">
+    <a href="https://arxiv.org/abs/2403.19460" target="_blank">
     <img src="https://img.shields.io/badge/Paper-arXiv-green" alt="Paper ArXiv"></a>
     <a href="https://riemann-web.github.io/" target="_blank">
     <img src="https://img.shields.io/badge/Page-RiEMann-blue" alt="Project Page"/></a>
@@ -88,7 +88,7 @@ We provide different scripts for result and feature visualization in `scripts/te
 @inproceedings{gao2024riemann,
    title={RiEMann: Near Real-Time SE(3)-Equivariant Robot Manipulation without Point Cloud Segmentation},
    author={Gao, Chongkai and Xue, Zhengrong and Deng, Shuying and Liang, Tianhai and Yang, Siqi and Zhu, Yuke},
-   booktitle={arXiv preprint arXiv:},
+   booktitle={arXiv preprint arXiv:2403.19460},
    year={2024}
 }
 ```
