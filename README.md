@@ -19,12 +19,6 @@ RiEMann is an SE(3)-equivariant robot manipulation algorithm that can generalize
 
 ![image](imgs/web_teaser.gif)
 
-## TODO
--[ ] Add pretrained models
-
--[ ] Add hyperparameter tuning guidance
-
--[ ] Upload more data
 
 ## Installation
 
