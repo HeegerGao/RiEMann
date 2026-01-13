@@ -6,6 +6,6 @@ opencv-python==4.9.0.80
 potpourri3d==1.0.0
 pynvml==11.5.0
 scipy
-tqdm==4.66.2
+tqdm
 transforms3d==0.4.1
 wandb==0.16.3
